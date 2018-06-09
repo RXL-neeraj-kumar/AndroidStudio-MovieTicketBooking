@@ -1,0 +1,24 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/side_nav_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HI !"
+        android:textSize="30sp"
+        android:textColor="#32312d"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:id="@+id/loginbutton"
+        android:textColor="#32312d"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

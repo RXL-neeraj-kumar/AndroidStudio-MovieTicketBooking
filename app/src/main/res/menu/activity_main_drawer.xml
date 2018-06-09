@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/book"
+            android:icon="@drawable/book"
+            android:title="Book Tickets" />
+        <item
+            android:id="@+id/bm"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Browse Movies" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="settings" />
+
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/like"
+                    android:icon="@drawable/like"
+                android:title="Like this App" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="About" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

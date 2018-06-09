@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "107287492164",
+    "firebase_url": "https://show-e0606.firebaseio.com",
+    "project_id": "show-e0606",
+    "storage_bucket": "show-e0606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107287492164:android:8dc36c423c91df00",
+        "android_client_info": {
+          "package_name": "com.example.neeraj.ticketsnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107287492164-chh9j8mpts8mkpo9joj9v64p1b7kpfi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8sJ7PCIsSeoEVSeX9SF6b8-MDjlOrPdk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

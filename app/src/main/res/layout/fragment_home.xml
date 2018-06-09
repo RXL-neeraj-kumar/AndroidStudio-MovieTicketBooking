@@ -1,0 +1,68 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_weight="4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:id="@+id/button2"
+            android:background="#ed9696"
+            android:src="@drawable/abook"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/bm"
+            android:layout_width="0dp"
+            android:background="#c3ffc7"
+            android:src="@drawable/youtube"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageButton
+            android:layout_width="0dp"
+            android:src="@drawable/aabout"
+            android:background="#e09def"
+            android:id="@+id/button4"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:src="@drawable/asetting"
+            android:id="@+id/button6"
+            android:background="#94ccfc"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <ImageButton
+            android:layout_width="0dp"
+            android:src="@drawable/rate"
+            android:id="@+id/button5"
+            android:background="#f7faad"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:src="@drawable/exit"
+            android:background="#fae2c3"
+            android:id="@+id/button7"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
